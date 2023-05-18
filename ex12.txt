@@ -1,0 +1,10 @@
+As classes em POO são estruturas que descrevem objetos, especificando os atributos e comportamentos (métodos) que o objeto deve ter, como se fosse um "molde".
+Ex: uma classe Escola pode ter os atributos como: nome, cpnj, endereço etc. Além disso, dentro da classe escola podemos ter métodos como por exemplo, o método Mostrar, que mostra para o usuário todos os atributos que foram definidos. Os atributos e métodos é o molde do objeto, pode-se criar diversos objetos a partir de uma classe.
+
+Os objetos em POO são entidades concretas que são criadas a partir de uma classe, com seus atributos e métodos.
+Ex: um exemplo seria utilizando a classe Escola citada no conceito de Classes, a mesma poderia ter diversos objetos "Escolas" com atributos e métodos diferentes ou até mesmo bem parecidos, mas tudo isso dentro da classe Escolas.
+
+As instâncias em POO são objetos que os atributos e métodos são definidos pela classe, ou seja, as instâncias de uma classe podem ter os mesmos atributos, embora sejam diferentes quanto ao conteúdo desses atributos. Usando o mesmo exemplo da Classe Escola, essa classe pode ter objetos parecidos, mas que os atributos são diferentes, variando esse objeto. Cada variação desse objeto é uma instância.
+
+As interfaces em POO são basicamente contratos de propriedades e métodos que a classe que utilizá-la deve implementar.
+Ex: Criando uma interface "carrosEsportivos" onde eu insiro métodos como "fazerBarulho" , "serVeloz" ... quando eu implementar essa interface em alguma classe, automaticamente a mesma DEVE conter todos os métodos que a interface "carrosEsportivos" possui. 
